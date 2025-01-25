@@ -1,201 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Personal Portfolio #1 | AsmrProg</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My portfolio - Vicevil</title>
+    <link rel="stylesheet" href="css/styles.css"> <!-- Vincula tu CSS -->
+    <link rel="icon" href="img/favicon.ico">
 </head>
-
 <body>
-
-    <nav>
-        <div class="nav-logo">
-            <a href="#">
-                <img src="images/logo.png">
-            </a>
+    <header>
+        <div class="logo">
+            <h1><a href="#home">Vicevil</a></h1>
         </div>
-
-        <ul class="nav-links">
-            <li class="link"><a href="#">Home</a></li>
-            <li id="link1" class="link"><a href="#">Features</a></li>
-            <li id="link2" class="link"><a href="#">Pricing</a></li>
-            <li id="link3" class="link"><a href="#">About</a></li>
-        </ul>
-        <button class="btn">Hire Me</button>
-    </nav>
-
-    <header class="container">
-        <div class="content">
-            <span class="blur"></span>
-            <span class="blur"></span>
-            <h4>CREATE YOUR SITE LIKE A PRO</h4>
-            <H1>Hi, I'm <span>Reza</span>, Web Developer</H1>
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus rem eos aliquid quo rerum
-                temporibus ipsum distinctio numquam ut omnis placeat, nam sint atque quos dolorem laborum? Rerum, esse
-                dolorem.
-            </p>
-            <button class="btn">Get Started</button>
-        </div>
-        <div class="image">
-            <img src="images/header.png">
-        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section class="container">
-        <h2 class="header">OUR FEATURES</h2>
-        <div class="features">
-            <div class="card">
-                <span><i class="ri-money-dollar-box-line"></i></span>
-                <h4>Free Tutorials</h4>
-                <p>
-                    My tutorials in my channel "AsmrProg" are free and you don't need to pay anything.
-                </p>
-                <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
-            </div>
-            <div class="card">
-                <span><i class="ri-bug-line"></i></span>
-                <h4>Fix Your Bugs</h4>
-                <p>
-                    You have any problem in your codes? Tell me, i will help you fix it.
-                </p>
-                <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
-            </div>
-            <div class="card">
-                <span><i class="ri-history-line"></i></span>
-                <h4>On Time Videos</h4>
-                <p>
-                    We have video each 4 days, So check channel every 4 days to watch it!
-                </p>
-                <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
-            </div>
-            <div class="card">
-                <span><i class="ri-shake-hands-line"></i></span>
-                <h4>Cooperation</h4>
-                <p>
-                    You want we worrk together? Write email to us, we will read it.
-                </p>
-                <a href="#">Join Now <i class="ri-arrow-right-line"></i></a>
-            </div>
-        </div>
-    </section>
+    <main>
+        <!-- Sección de inicio -->
+        <section id="home" class="hero">
+            <h2>¡Hola, soy Vicevil!</h2>
+            <p>Hacker ético | Developer | Amante de la tecnología</p>
+            <a href="#about" class="btn">Conóceme más</a>
+        </section>
 
-    <section class="container">
-        <h2 class="header">PROJECT PRICING PLANS</h2>
-        <p class="sub-header">
-            Our pricing plans come with various membership tiers, each tailored to cater to different projects and
-            class+ code types.
-        </p>
-        <div class="pricing">
-            <div class="card">
-                <div class="content">
-                    <h4>Basic Plan</h4>
-                    <h3>0$</h3>
-                    <p>
-                        <i class="ri-checkbox-circle-line"></i>
-                        Smart coding plan
-                    </p>
-                    <p>
-                        <i class="ri-checkbox-circle-line"></i>
-                        At home workouts
-                    </p>
-                </div>
-                <button class="btn">Join Now</button>
-            </div>
-            <div class="card">
-                <div class="content">
-                    <h4>Gold Plan</h4>
-                    <h3>10$</h3>
-                    <p>
-                        <i class="ri-checkbox-circle-line"></i>
-                        Pro codes
-                    </p>
-                    <p>
-                        <i class="ri-checkbox-circle-line"></i>
-                        Smart coding plan
-                    </p>
-                    <p>
-                        <i class="ri-checkbox-circle-line"></i>
-                        At home workouts
-                    </p>
-                </div>
-                <button class="btn">Join Now</button>
-            </div>
-            <div class="card">
-                <div class="content">
-                    <h4>Diamond Plan</h4>
-                    <h3>100$</h3>
-                    <p>
-                        <i class="ri-checkbox-circle-line"></i>
-                        Elite Classes & Courses
-                    </p>
-                    <p>
-                        <i class="ri-checkbox-circle-line"></i>
-                        Pro codes
-                    </p>
-                    <p>
-                        <i class="ri-checkbox-circle-line"></i>
-                        Personal Coaching
-                    </p>
-                    <p>
-                        <i class="ri-checkbox-circle-line"></i>
-                        Smart coding plan
-                    </p>
-                    <p>
-                        <i class="ri-checkbox-circle-line"></i>
-                        At home workouts
-                    </p>
-                </div>
-                <button class="btn">Join Now</button>
-            </div>
-        </div>
-    </section>
+        <!-- Sección sobre mí -->
+        <section id="about">
+            <h2>Sobre mí</h2>
+            <p>Soy Vicevil, un entusiasta del Red Team y un apasionado de la ciberseguridad y la tecnología. Desde temprana edad, me ha fascinado el mundo del hacking ofensivo, especializándome en la exploración de sistemas y redes, así como en la resolución de retos en plataformas como Hack The Box. Siempre estoy buscando nuevos conocimientos y desafiándome a mí mismo, perfeccionando mis habilidades en Linux, scripting y técnicas avanzadas de pentesting.</p>
+            
+            <p>Con 15 años y cursando 3º de ESO, he desarrollado una sólida base en ciberseguridad, destacándome por mi capacidad de aprendizaje autónomo y mi curiosidad insaciable. Me interesa todo lo relacionado con sistemas Red Team: explotación de vulnerabilidades, escalamiento de privilegios y pivoting, siempre aplicando un enfoque ético y profesional.</p>
+            
+            <p>Mi pasión también se refleja en mi uso de Arch Linux, mi sistema operativo de cabecera, donde personalizo mi entorno para optimizar mi productividad y flujo de trabajo. Además, estoy comprometido con el aprendizaje continuo, experimentando con nuevas herramientas y técnicas que me acerquen a mi objetivo de convertirme en un experto en ciberseguridad ofensiva.</p>
 
-    <footer class="container">
-        <span class="blur"></span>
-        <span class="blur"></span>
-        <div class="column">
-            <div class="logo">
-                <img src="images/logo.png">
+            <p>Ahoramismo estoy en proceso de aprendizaje sin parar, soy un alummno de la academia de el influencer s4vitar Hack4u. Es gracias a ello y a mis amigos y familiares que confian en mi, esa es la motivación que llevo a todos lados.</p>
+        </section>
+
+        <!-- Sección de proyectos -->
+        <section id="projects">
+            <h2>Proyectos</h2>
+            <div class="project-grid">
+                <div class="project-item">
+                    <h3>Blackbox</h3>
+                    <p>Un proyecto en el que estoy trabajando. Se trata de multiples herramientas de pentesting automatizadas, es muy util a la hora de hacer maquinas ya que te lo automatiza casi todo.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Proyecto 2</h3>
+                    <p>Descripción breve de este proyecto.</p>
+                </div>
+                <!-- Añade más proyectos aquí -->
             </div>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </p>
-            <div class="socials">
-                <a href="#"><i class="ri-youtube-line"></i></a>
-                <a href="#"><i class="ri-instagram-line"></i></a>
-                <a href="#"><i class="ri-twitter-line"></i></a>
-            </div>
-        </div>
-        <div class="column">
-            <h4>Company</h4>
-            <a href="#">Business</a>
-            <a href="#">Partnership</a>
-            <a href="#">Network</a>
-        </div>
-        <div class="column">
-            <h4>About Us</h4>
-            <a href="#">Blogs</a>
-            <a href="#">Channels</a>
-            <a href="#">Sponsors</a>
-        </div>
-        <div class="column">
-            <h4>Contact</h4>
-            <a href="#">Contact Us</a>
-            <a href="#">Privicy Policy</a>
-            <a href="#">Terms & Conditions</a>
-        </div>
+        </section>
+
+        <!-- Sección de contacto -->
+        <section id="contact">
+            <h2>Contacto</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Nombre" name="name" required>
+                <input type="email" placeholder="Correo electrónico" name="email" required>
+                <textarea placeholder="Tu mensaje" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Vicevil. Todos los derechos reservados.</p>
     </footer>
 
-    <div class="copyright">
-        Copyright © 2023 AsmrProg Channel. All Rights Reserved.
-    </div>
-
-
-    <script src="script.js"></script>
+    <script src="static/js/script.js"></script> <!-- Vincula tu JavaScript -->
 </body>
-
 </html>
