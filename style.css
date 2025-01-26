@@ -155,6 +155,18 @@ section .header{
     font-weight: 600;
 }
 
+.nav-banner {
+    text-align: center;
+    margin: 10px 0; /* Espaciado vertical */
+}
+
+.nav-banner .nav-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Bordes redondeados para un efecto más chulo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra elegante */
+}
+
 .features{
     margin-top: 4rem;
     display: grid;
