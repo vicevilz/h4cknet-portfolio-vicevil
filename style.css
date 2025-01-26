@@ -192,6 +192,15 @@ section .header{
     font-weight: 600;
 }
 
+.about-line {
+    width: 100%;  /* Hace que la línea ocupe todo el ancho de la pantalla */
+    height: 3px;  /* Grosor de la línea */
+    background-color: #000;  /* Color de la línea */
+    border: none;  /* Elimina los bordes predeterminados */
+    margin-top: 20px;  /* Espacio superior para no pegarse al texto */
+    margin-bottom: 20px;  /* Espacio inferior para separar del siguiente contenido */
+}
+
 .features .card p{
     color: #ccc;
     margin-bottom: 1rem;
