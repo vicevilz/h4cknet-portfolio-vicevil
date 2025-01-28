@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /about/
+Disallow: /contact/
+Disallow: /images/
+Disallow: /favicon/
